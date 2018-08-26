@@ -1,1 +1,24 @@
 
+WEB-230 | How PHP Works – Server Side Scripting – Assignment
+Explain the following:
+
+Identify and explain the differences between server side and client side.
+(2 sentances)
+
+
+Identify and explain the differences between scripting and programming languages.
+(2 sentances)
+
+
+Explain what type of language PHP is.
+(2 sentances)
+
+
+Explain the process of a request from client to server and back to client.
+(2 sentances)
+
+
+Explain the differences between the different post types discussed in the video.
+(2 sentances)
+
+
