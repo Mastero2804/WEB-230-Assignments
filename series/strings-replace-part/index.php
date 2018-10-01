@@ -1,19 +1,9 @@
 <?php
 
-  if(isset($_GET['user_name'])&&!empty($_GET['user_name'])){
+  $string = 'This part don\'t search. This part search.';
 
-    $user_name = $_GET['user_name'];
-    $user_name_lc = strtolower($user_name);
+  $string_new = substr_replace($string, 'alex', 29, 4);
 
-    if($user_name_lc == 'alex'){
-      echo 'You are the best '.$user_name;
-    }
-
-  }
+  echo $string_new;
 
 ?>
-
-<form action="index.php" method="GET">
-  Name: <input type="text" name="user_name"><br><br>
-  <input type="submit" value="submit">
-</form>

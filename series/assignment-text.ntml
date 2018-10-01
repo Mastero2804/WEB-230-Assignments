@@ -1,16 +1,16 @@
   Complete the following:
   <ol>
-   	<li>Create a folder in your “htdocs/series/” folder named “strings-case-conversion”.</li>
-   	<li>Create a file in your “htdocs/series/strings-case-conversion” folder named “index.php”.</li>
+   	<li>Create a folder in your “htdocs/series/” folder named “strings-replace-part”.</li>
+   	<li>Create a file in your “htdocs/series/strings-replace-part” folder named “index.php”.</li>
    	<li>Write the code in the “index.php” file as done in the video.</li>
    	<li>View your index.php file on your localhost in a browser and take a screen shot of it.
   <ol>
-   	<li>Save the screenshot to the “htdocs/series/strings-case-conversion” folder using the file name
-  “web-230-047-strings-case-conversion.jpg”</li>
+   	<li>Save the screenshot to the “htdocs/series/strings-replace-part” folder using the file name
+  “web-230-050-strings-replace-part.jpg”</li>
   </ol>
   </li>
   </ol>
   <strong>Submitting Assignment:
-  </strong>Save folders and file named “<em>series/strings-case-conversion/</em>” in your GitHub “<em>WEB-230-Assignments</em>” repository and submit a link to the “expression-matching<em>” </em>folder in your repository.
+  </strong>Save folders and file named “<em>series/strings-replace-part/</em>” in your GitHub “<em>WEB-230-Assignments</em>” repository and submit a link to the “expression-matching<em>” </em>folder in your repository.
 
-  Your submission should look similar to the following: <a href="https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/strings-case-conversion" target="_blank" rel="noopener">https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/strings-case-conversion
+  Your submission should look similar to the following: <a href="https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/strings-replace-part" target="_blank" rel="noopener">https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/strings-replace-part
