@@ -1,19 +1,12 @@
 <?php
 
-  if(isset($_GET['user_name'])&&!empty($_GET['user_name'])){
+  $find = array('is','string','example');
+  $replace = array('IS','STRING','');
 
-    $user_name = $_GET['user_name'];
-    $user_name_lc = strtolower($user_name);
+  $string = 'This is a string, and is an example';
 
-    if($user_name_lc == 'alex'){
-      echo 'You are the best '.$user_name;
-    }
+  $new_string = str_replace($find, $replace, $string);
 
-  }
+  echo $new_string;
 
 ?>
-
-<form action="index.php" method="GET">
-  Name: <input type="text" name="user_name"><br><br>
-  <input type="submit" value="submit">
-</form>
