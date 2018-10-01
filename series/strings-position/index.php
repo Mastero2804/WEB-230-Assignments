@@ -1,5 +1,7 @@
 <?php
 
+  $offset = 0;
+
   $find = 'is';
 
   $find_length = strlen($find);
