@@ -1,16 +1,16 @@
   Complete the following:
   <ol>
-   	<li>Create a folder in your “htdocs/series/” folder named “word-censoring-app”.</li>
-   	<li>Create a file in your “htdocs/series/word-censoring-app” folder named “index.php”.</li>
+   	<li>Create a folder in your “htdocs/series/” folder named “find-and-replace-application”.</li>
+   	<li>Create a file in your “htdocs/series/find-and-replace-application” folder named “index.php”.</li>
    	<li>Write the code in the “index.php” file as done in the video.</li>
    	<li>View your index.php file on your localhost in a browser and take a screen shot of it.
   <ol>
-   	<li>Save the screenshot to the “htdocs/series/word-censoring-app” folder using the file name
-  “web-230-052-053-word-censoring-app.jpg”</li>
+   	<li>Save the screenshot to the “htdocs/series/find-and-replace-application” folder using the file name
+  “web-230-054-057-find-and-replace-application.jpg”</li>
   </ol>
   </li>
   </ol>
   <strong>Submitting Assignment:
-  </strong>Save folders and file named “<em>series/word-censoring-app/</em>” in your GitHub “<em>WEB-230-Assignments</em>” repository and submit a link to the “expression-matching<em>” </em>folder in your repository.
+  </strong>Save folders and file named “<em>series/find-and-replace-application/</em>” in your GitHub “<em>WEB-230-Assignments</em>” repository and submit a link to the “expression-matching<em>” </em>folder in your repository.
 
-  Your submission should look similar to the following: <a href="https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/word-censoring-app" target="_blank" rel="noopener">https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/word-censoring-app
+  Your submission should look similar to the following: <a href="https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/find-and-replace-application" target="_blank" rel="noopener">https://github.com/brianrsavage/WEB-230-Assignments/tree/master/series/find-and-replace-application
