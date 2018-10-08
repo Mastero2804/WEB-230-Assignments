@@ -18,7 +18,7 @@
 
         while ($strpos = strpos($text, $search, $offset)) {
 
-          //Explain why we change the value of the $offset variable her.
+          // Explain why we change the value of the $offset variable here.
           $offset = $strpos + $search_length;
 
           // Explain what we are doing here to the $text variable.
@@ -43,7 +43,7 @@
 
 <!-- Explain the action and method attributes. -->
 <form action="index.php" method="POST">
-  
+
   <textarea name="text" rows="6" cols="30"></textarea><br><br>
 
   Search for:<br><br>
