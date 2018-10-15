@@ -3,7 +3,7 @@
 include_once('include/header.inc.php');
 
   $offset = 0;
-  $text = "";
+
 
   if(isset($_POST['text'])){
 
@@ -31,7 +31,10 @@ include_once('include/header.inc.php');
 
       }
 
-  }
+    }else{
+      $text = 'please enter your communication here.';
+    }
+
 
 ?>
 
