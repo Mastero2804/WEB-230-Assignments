@@ -3,6 +3,7 @@
 include_once('include/header.inc.php');
 
   $offset = 0;
+  $text = "";
 
   if(isset($_POST['text'])){
 
