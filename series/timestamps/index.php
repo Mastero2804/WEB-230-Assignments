@@ -1,8 +1,11 @@
 <?php
 
-  $string = 'This is an example string.';
-  $string_word_count = str_word_count($string, 1, '.');
+  echo $time = time();
 
-  print_r($string_word_count);
+  echo '<br/>';
+
+  $actual_time = date('D M Y @ H:i:s', $time);
+
+  echo 'The current dte/time is: '.$actual_time;
 
 ?>
