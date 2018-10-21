@@ -1,0 +1,41 @@
+.copy, section {
+  text-align: center;
+  padding: 30px;
+}
+
+header, footer {
+  background-color: #000;
+  color: #FFF;
+  padding: 30px;
+}
+
+header a{
+  text-decoration: none;
+  color:#FFF;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  margin: auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: -30px;
+}
+
+nav ul li a:hover{
+  background-color: #FFF;
+  color: #000;
+}
