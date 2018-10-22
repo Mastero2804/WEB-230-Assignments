@@ -4,6 +4,7 @@
 <?php
 
     $redirect_page = 'http://google.com';
+	
     $redirect = true;
 
     if($redirect == true)){
