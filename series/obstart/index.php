@@ -1,6 +1,6 @@
 <?php
 
-  // 02. Explaine why we use ob_start.
+  // 01. Explaine why we use ob_start.
   ob_start(); ?>
 
 <h1>My Page</h1>
