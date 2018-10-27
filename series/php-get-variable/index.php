@@ -1,7 +1,7 @@
 
     <?php
 
-      // 01. Explain what the following if statment is doing.
+      // 01. Explain what the following if statement is doing.
       if ( isset($_GET['day']) && isset($_GET['date']) && isset($_GET['year']) ) {
         $day = $_GET['day'];
         $date = $_GET['date'];
