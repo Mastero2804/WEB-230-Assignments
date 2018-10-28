@@ -2,7 +2,7 @@
   // 01. Add the session_start to establish a session to capture the information.
   session_start();
 
-  // 02. Move the ddd and ddd variables to top of script to make them gloabal.
+  // 02. Move the $msg and $msgType variables to top of script to make them global.
   $msg = 'Please complete the form below. We currently have no data available to display.';
   $msgType = 'warning';
 
@@ -22,7 +22,7 @@
       $year = ( isset($_SESSION['year']) ) ? $_SESSION['year'] : '';
 
       if ( isset($_GET['day']) && isset($_GET['date']) && isset($_GET['year']) ) {
-        // 04. Update session abd active variables with updated information submitted by the user.
+        // 04. Update session and active variables with updated information submitted by the user.
         $_SESSION['day'] = $day = htmlentities($_GET['day']);
         $_SESSION['date'] = $date = htmlentities($_GET['date']);
         $_SESSION['year'] = $year = htmlentities($_GET['year']);
@@ -34,7 +34,7 @@
           $msg = 'Fill in all fields.';
           $msgType = 'danger';
         }
-        // 05. Add condition to catch unsubmitted form but session information available.
+        // 05. Add condition to catch un-submitted form but session information available.
       } else if ( isset($_SESSION['day']) && isset($_SESSION['date']) && isset($_SESSION['year']) ) {
         $msg = 'Your information date is currently set to: '. $day .' '. $date .' '. $year;
         $msgType = 'info';
