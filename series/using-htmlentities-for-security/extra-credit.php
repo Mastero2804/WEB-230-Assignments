@@ -14,7 +14,7 @@
       $year = '';
 
       if ( isset($_GET['day']) && isset($_GET['date']) && isset($_GET['year']) ) {
-        // Add htmlentities to form submission.
+        // 01. Add htmlentities to form submission.
         $day = htmlentities($_GET['day']);
         $date = htmlentities($_GET['date']);
         $year = htmlentities($_GET['year']);
@@ -35,14 +35,20 @@
         <form method="GET">
           <div class="form-group">
             <label for="day">Day:</label>
-            <!-- Make the day field requierd and added HTML5 validation to check that only letters have been enterd with a minimum of two. -->
+            <!--
+              02. Make the day field required and added HTML5 validation to check that only letters have
+              been entered with a minimum of two.
+            -->
             <input type="text" name="day" class="form-control" placeholder="Enter day here. e.g. Monday, Tuesday, etc."
                 pattern="[A-z]{5,}" title="Day should only contain letters. e.g. Monday, Tuesday, etc."
                 value="<?php echo $day; ?>" required>
           </div>
           <div class="form-group">
             <label for="date">Date:</label>
-            <!-- Make the date field requierd and added HTML5 validation to check that only numbers, no zeros, have been enterd with a minimum of one. -->
+            <!--
+              03. Make the date field required and added HTML5 validation to check that only numbers, no zeros,
+              have been entered with a minimum of one.
+            -->
             <input type="text" name="date" class="form-control" placeholder="Enter the numeric date here."
                 pattern="^[1-9]|[1-2][0-9]|3[0-1]$" title="Day should only contain numbers. e.g. 1, 11, etc."
                 value="<?php echo $date; ?>" required>
@@ -50,8 +56,8 @@
           <div class="form-group">
             <label for="year">Year:</label>
             <!--
-              Make the year field requierd and added HTML5 validation to check that only numbers, no zeros in the begining,
-              have been enterd with a minimum of one.
+              04. Make the year field required and added HTML5 validation to check that only numbers, no zeros in
+              the beginning, have been entered with a minimum of one.
             -->
             <input type="text" name="year" class="form-control" placeholder="Enter the numeric year here."
             pattern="[1-9][0-9]{3}" title="Day should only contain numbers. e.g. 1971, 2018, etc."
