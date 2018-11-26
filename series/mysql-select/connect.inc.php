@@ -10,7 +10,7 @@
   if(!$con = mysqli_connect($mysql_host, $mysql_user, $mysql_pass, $mysql_db)){
     die($conn_error);
   }else{
-    echo 'Connected!';
+    //echo 'Connected!';
   }
 
 ?>
