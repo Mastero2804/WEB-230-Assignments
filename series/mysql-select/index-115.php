@@ -7,7 +7,7 @@
     if($query_run = mysqli_query($con, $query)){
       echo 'Query succeded.';
     }else{
-      echo("Error description: " . mysqli_error($con));
+      echo 'Query failed.';
     }
 
 
