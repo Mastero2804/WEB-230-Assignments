@@ -4,21 +4,21 @@ Explain the following:
 
 Identify and explain the differences between server side and client side.
 (2 sentances)
-
+ the client side is used as front end and the server side is used as backend. To identify it, i have to look for where the language is compiled.
 
 Identify and explain the differences between scripting and programming languages.
 (2 sentances)
-
+scripting languages cannot be converted in files. but programming languages can do that.
 
 Explain what type of language PHP is.
 (2 sentances)
-
+php is a side scripting language.it is known for being easy to use.
 
 Explain the process of a request from client to server and back to client.
 (2 sentances)
-
+the user ask the server, the server send it to a file, the file is transformed to a document, and is sent back to the user.
 
 Explain the differences between the different post types discussed in the video.
 (2 sentances)
-
+the http get have query strings sent in the url of a get request. And a http post have query stringssent in the http message body
 
