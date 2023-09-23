@@ -1,11 +1,9 @@
-<?php 
+<?php
 
-     function MyName(){
-	     echo 'Alex';
-		 }
-		 
-		 echo 'My name is ';
-		 MyName();
-		 
-		 
-		 ?>
+  function displayDate($day, $date, $year){
+    echo $day.' '.$date.' '.$year;
+  }
+
+  displayDate('Monday', 31, 2011);
+
+?>
