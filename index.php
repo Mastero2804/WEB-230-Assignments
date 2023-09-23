@@ -1,3 +1,11 @@
-<?php
-echo "Hello, World!";
-?>
+<?php 
+
+     function MyName(){
+	     echo 'Alex';
+		 }
+		 
+		 echo 'My name is ';
+		 MyName();
+		 
+		 
+		 ?>
